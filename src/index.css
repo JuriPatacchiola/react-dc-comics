@@ -9,11 +9,17 @@
 
   --first-font: "Open Sans", sans-serif;
 
+  --font-weight: 700;
+
 }
 
 * {
   margin: 0px;
   padding: 0px;
+}
+
+body {
+  font-family: var(--first-font);
 }
 
 header {
@@ -31,6 +37,7 @@ nav a {
   text-decoration: none;
   margin: 12px;
   color: var(--therth-color);
+  font-weight: var(--font-weight);
   transition: color 0.3s ease;
 }
 
@@ -72,4 +79,30 @@ nav a.active::after {
   color: var(--first-color);
   padding-left: 120px;
   font-size: 28px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  background-color: var(--second-color);
+  padding: 40px 164px;
+  gap: 20px;
+}
+
+
+
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rowContainer img {
+  width: 44px;
+  margin-right: 8px;
+}
+
+.rowContainer p {
+  font-size: 14px;
 }
