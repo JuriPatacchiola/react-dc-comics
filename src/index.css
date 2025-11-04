@@ -169,7 +169,9 @@ button {
 }
 
 .FlexSocial p {
-  color: var(--first-color);
+  color: var(--second-color);
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .FlexSocial img {
