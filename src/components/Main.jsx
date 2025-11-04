@@ -1,5 +1,4 @@
 import { RowElement } from "./RowElement"
-import { Sfondo } from "./Sfondo"
 
 export function Main() {
 
@@ -10,7 +9,6 @@ export function Main() {
                 <h3> -- Content goes here -- </h3>
             </div>
             <RowElement />
-            <Sfondo />
 
 
         </main>

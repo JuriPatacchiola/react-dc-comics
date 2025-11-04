@@ -113,7 +113,7 @@ nav a.active::after {
   background-image: url(./assets/img/footer-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: auto;
   height: 40vh;
   overflow: hidden;
 }
@@ -142,4 +142,36 @@ nav a.active::after {
   right: 248px;
   bottom: -90px;
   position: absolute;
+}
+
+footer .flexFirst {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 160px;
+  background-color: var(--fourth-color);
+}
+
+
+button {
+  background-color: transparent;
+  padding: 20px;
+  border: 2px solid #0282F9;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+.FlexSocial {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.FlexSocial p {
+  color: var(--first-color);
+}
+
+.FlexSocial img {
+  padding-left: 8px;
 }
