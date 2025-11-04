@@ -42,12 +42,14 @@ nav a::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -40px;
+  bottom: -62px;
   width: 0;
   height: 8px;
   background-color: var(--second-color);
   transition: width 0.3s ease;
 }
+
+
 
 nav a:hover::after {
   width: 100%;
@@ -59,4 +61,15 @@ nav a.active {
 
 nav a.active::after {
   width: 100%;
+}
+
+.blackRettangle {
+  background-color: var(--therth-color);
+  padding: 50px;
+}
+
+.blackRettangle h3 {
+  color: var(--first-color);
+  padding-left: 120px;
+  font-size: 28px;
 }

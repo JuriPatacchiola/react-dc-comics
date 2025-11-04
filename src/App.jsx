@@ -6,7 +6,12 @@ function App() {
     <>
       <Header />
       <main>
+        <div className="blackRettangle">
+          <h3> -- Content goes here -- </h3>
+        </div>
+        <div>
 
+        </div>
       </main>
       <footer></footer>
     </>
