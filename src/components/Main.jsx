@@ -1,4 +1,6 @@
-import { RowElement } from "./RowElement"
+import { Books } from "./Books";
+import { RowElement } from "./RowElement";
+
 
 export function Main() {
 
@@ -8,6 +10,9 @@ export function Main() {
             <div className="titanImg">
 
             </div>
+
+            <Books />
+
             <RowElement />
 
 

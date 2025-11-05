@@ -77,10 +77,67 @@ nav a.active::after {
   padding: 160px;
 }
 
-.blackRettangle h3 {
-  color: var(--first-color);
-  padding-left: 120px;
-  font-size: 28px;
+.current-series-section {
+  background-color: #1c1c1c;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.section-title {
+  position: absolute;
+  bottom: 228px;
+  left: 180px;
+  display: inline-block;
+  background-color: #0282f9;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.comics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.comic-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.comic-thumb {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: fill;
+  object-position: center top;
+  display: block;
+}
+
+.comic-series {
+  margin-top: 10px;
+  font-size: 13px;
+  color: white;
+}
+
+.load-more {
+  background-color: var(--second-color);
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  margin-top: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.load-more:hover {
+  background-color: #006ad4;
 }
 
 .gridContainer {
