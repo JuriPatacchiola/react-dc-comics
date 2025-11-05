@@ -70,9 +70,11 @@ nav a.active::after {
   width: 100%;
 }
 
-.blackRettangle {
-  background-color: var(--therth-color);
-  padding: 50px;
+.titanImg {
+  background-image: url(./assets/img/jumbotron.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 160px;
 }
 
 .blackRettangle h3 {
