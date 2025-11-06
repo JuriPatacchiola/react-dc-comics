@@ -173,17 +173,17 @@ nav a.active::after {
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 40vh;
+  height: 48vh;
   overflow: hidden;
 }
 
 .containerFlex {
   display: flex;
-  padding: 20px 160px;
+  padding: 40px 120px;
 }
 
 .containerFlex h2 {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   color: var(--first-color);
 }
 
@@ -235,4 +235,15 @@ button {
 
 .FlexSocial img {
   padding-left: 8px;
+}
+
+.no-deco {
+  display: block;
+  color: #A8A8A8;
+  text-decoration: none;
+
+}
+
+.no-deco:hover {
+  text-decoration: underline;
 }

@@ -1,3 +1,4 @@
+import Book from "./Book";
 export function Books() {
     const comics = [
         {
@@ -161,11 +162,12 @@ export function Books() {
             <h2 className="section-title">CURRENT SERIES</h2>
 
             <div className="comics-grid">
-                {comics.map(item => (
-                    <div key={item.id} className="comic-card">
-                        <img src={item.thumb} alt={item.series} className="comic-thumb" />
-                        <p className="comic-series">{item.series.toUpperCase()}</p>
-                    </div>
+                {comics.map((item) => (
+                    <Book
+                        key={item.id}
+                        thumb={item.thumb}
+                        series={item.series}
+                    />
                 ))}
             </div>
 

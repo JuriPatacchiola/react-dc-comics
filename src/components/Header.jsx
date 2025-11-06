@@ -9,6 +9,8 @@ export function Header() {
         <header>
             <img src={Logo} alt="logo" />
             <NavBar />
+
+
         </header>
     )
 }
